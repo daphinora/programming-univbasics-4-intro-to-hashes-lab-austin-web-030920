@@ -22,7 +22,7 @@ end
 
 def read_from_hash(hash, key)
   hash = {}
-  if hash[key] = value
+  if hash[key]
     return hash[key]
   else nil
   end
