@@ -21,7 +21,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash = {key => value}
+  hash = {key => "value"}
   if hash[key]
     puts hash[key]
   else nil
